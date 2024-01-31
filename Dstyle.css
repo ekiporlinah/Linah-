@@ -1,0 +1,128 @@
+h2{
+    color: chocolate;
+    font-size: 43px;
+    text-align: center;
+    text-decoration: underline;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    background-color: cyan;
+}
+.navbar .logo a{
+    text-decoration: none;
+    color:blue;
+    font-size: 43px;
+    font-weight: 400;
+}
+.navbar .all-links a{
+    font-weight: 500;
+    font-size: 18px ;
+    padding:6px 0 ;
+    text-decoration: none;
+}
+.navbar .all-links a:hover{
+    color: black;
+}
+.navbar .all-links li{
+    text-decoration: none;
+    list-style: none;
+    margin: 6px;
+}
+.navbar .all-links{
+    display: flex;
+    position: relative;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("photo-1505852679233-d9fd70aff56d.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 25px;
+    color: red;
+}
+.home .text-two{
+    font-size: 75px;
+    color: blue;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-three{
+    font-size: 40px;
+    margin: 5px 0;
+    color: brown;
+}
+.home .text-four{
+    font-size: 23px;
+    margin: 5px 0;
+    color: darkmagenta;
+}
+.home .button{
+    margin: 14px 0;
+}
+.home .button button{
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.home .button button:hover{
+    border-color: darkblue;
+    background-color: white;
+    color: blue;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image: url("photo-1505852679233-d9fd70aff56d.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.about .about-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about .text-one{
+    font-size: 25px;
+    color: red;
+}
+.about .text-two{
+    font-size: 75px;
+    color: blue;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.about .text-three{
+    font-size: 40px;
+    margin: 5px 0;
+    color: brown;
+}
+
+

@@ -1,0 +1,49 @@
+h2{
+    color: blue;
+    font-size: 42px;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    margin: 20px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: chocolate;
+}
+.navbar .logo a{
+    font-size: 43px;
+    font-weight: 400;
+    color: blue;
+    text-decoration: none;
+}
+.navbar .menu{
+    display: flex;
+    position: relative;
+}
+.navbar .menu li{
+    list-style: none;
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.navbar .menu a{
+    font-size: 18px;
+    font-weight: 500;
+    color: blue;
+    padding: 6px 0;
+    text-decoration: none;
+}
+.navbar .menu a:hover{
+    color: green;
+}
+.navbar .menu li{
+
+}
